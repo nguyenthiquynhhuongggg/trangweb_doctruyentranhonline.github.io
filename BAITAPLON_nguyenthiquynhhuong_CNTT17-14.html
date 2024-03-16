@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Moon - Đọc truyện tranh online</title>
+    <link rel="stylesheet" href="trangchu.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="links">
+                <a href="/Users/mac/Documents/BTL_Thiết kế web/dieukhoan.html" class="terms-link">Điều khoản sử dụng</a>
+                <span>|</span> 
+                <a href="mailto:themoonofthesky@gmail.com">Email liên hệ: themoonofthesky@gmail.com</a>
+            </div>
+            <div class="auth-buttons">
+                <button class="login-button" onclick="window.location.href='/Users/mac/Documents/BTL_Thiết kế web/login.html'">Đăng nhập</button>
+            </div>
+        </div>        
+        <div class="navbar">
+            <div class="menu">
+                <ul>
+                    <li><a href="">the moon</a></li>
+                    <li><a href="/Users/mac/Documents/BTL_Thiết kế web/BAITAPLON_nguyenthiquynhhuong_CNTT17-14.html">Trang chủ</a></li>
+                    <li><a href="#">HOT</a></li>
+                    <li class="dropdown">
+                        <a href="#">Xếp hạng</a>
+                        <div class="dropdown-content">
+                            <a href="#">TOP Ngày</a>
+                            <a href="#">TOP Tuần</a>
+                            <a href="#">TOP Tháng</a>
+                            <a href="#">TOP Năm</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Thể loại</a>
+                        <div class="dropdown-content">
+                            <table>
+                                <tr>
+                                    <td><a href="#">Ngôn tình</a></td>
+                                    <td><a href="#">Đam mỹ</a></td>
+                                    <td><a href="#">Hành động</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">Xuyên không</a></td>
+                                    <td><a href="#">Cổ trang</a></td>
+                                    <td><a href="#">Học đường</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">Âu cổ</a></td>
+                                    <td><a href="#">Lãng mạn</a></td>
+                                    <td><a href="#">Trinh thám</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">Chuyển sinh</a></td>
+                                    <td><a href="#">Truyện full</a></td>
+                                    <td><a href="#">Manhua</a></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">Harem</a></td>
+                                    <td><a href="#">Hành Động</a></td>
+                                    <td><a href="#">Manhwa</a></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">Manga</a></td>
+                                    <td><a href="#">Drama</a></td>
+                                    <td><a href="#">Adventure</a></td>
+                                    <td></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Bạn muốn tìm truyện gì?">
+                <button type="submit"><i class="fa fa-search">Tìm kiếm</i></button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <ul class="slides">
+            <li class="slide-container">
+                <a href="/path/to/su-dieu-tri-cua-tinh-linh"><img src="image/sudieutricuatinhlinh.jpg" alt="Sự Điều Trị Của Tinh Linh"></a>
+            </li>
+            <li class="slide-container">
+                <a href="/Users/mac/Documents/BTL_Thiết kế web/mua-xuan-hoa-no.html"><img src="image/muaxuanhoano.jpg" alt="Mùa Xuân Hoa Nở"></a>
+            </li>
+            <li class="slide-container">
+                <a href="/path/to/con-gai-duy-nhat"><img src="image/congaiduynhat.jpg" alt="Con Gái Duy Nhất"></a>
+            </li>
+            <li class="slide-container">
+                <a href="/path/to/cam-bay-ho-ly"><img src="image/cambayholy.jpg" alt="Cạm Bẫy Hồ Ly"></a>
+            </li>
+            <li class="slide-container">
+                <a href="/path/to/ngay-mai-cung-thich-em"><img src="image/ngaymaicungthichem.jpg" alt="Ngày Mai Cũng Thích Em"></a>
+            </li>
+            <li class="slide-container">
+                <a href="/path/to/huong-ve-anh-duong"><img src="image/huongveanhduong.jpg" alt="Hướng Về Ánh Dương"></a>
+            </li>
+            <li class="slide-container">
+                <a href="/path/to/the-siren"><img src="image/thesiren.jpg" alt="The Siren"></a>
+            </li>
+        </ul>
+        <script>
+            let slideIndex = 0;
+            showSlides();
+            function showSlides() {
+                let slides = document.getElementsByClassName("slide-container");
+                for (let i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) {slideIndex = 1}    
+                slides[slideIndex-1].style.display = "block";  
+                setTimeout(showSlides, 2000); // Thay đổi ảnh sau mỗi 2 giây
+            }
+        </script>
+        <section class="section">
+            <h1>Top Truyện Nổi Bật</h1>
+            <div class="products">
+                <div class="productt">
+                    <a href="/Users/mac/Documents/BTL_Thiết kế web/mua-xuan-hoa-no.html"><img src="image/muaxuanhoano.jpg" alt="Mùa Xuân Hoa Nở"></a>
+                    <h3><a href="/path/to/mua-xuan-hoa-no">Mùa Xuân Hoa Nở</a></h3>
+                </div>
+                <div class="productt">
+                    <a href="/path/to/the-siren"><img src="image/thesiren.jpg" alt="The Siren"></a>
+                    <h3><a href="/path/to/the-siren">The Siren</a></h3>
+                </div>
+                <div class="productt">
+                    <a href="/path/to/su-dieu-tri-cua-tinh-linh"><img src="image/sudieutricuatinhlinh.jpg" alt="Sự Điều Trị Của Tinh Linh"></a>
+                    <h3><a href="/path/to/su-dieu-tri-cua-tinh-linh">Sự Điều Trị Của Tinh Linh</a></h3>
+                </div>
+                <div class="productt">
+                    <a href="/path/to/cam-bay-ho-ly"><img src="image/cambayholy.jpg" alt="Cạm Bẫy Hồ Ly"></a>
+                    <h3><a href="/path/to/cam-bay-ho-ly">Cạm Bẫy Hồ Ly</a></h3>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <h1>Truyện mới </h1>
+            <div class="products">
+                <div class="row">
+                    <div class="product">
+                        <a href="/path/to/duoi-bong-cay-soi"><img src="image/duoibongcaysoi.jpg" alt="Dưới Bóng Cây Sồi"></a>
+                        <h3><a href="/path/to/duoi-bong-cay-soi">Dưới Bóng Cây Sồi</a></h3>
+                    </div>
+                    <div class="product">
+                        <a href="/path/to/tinh-yeu-bi-bo-roi-cua-toi"><img src="image/tinhyeubiboroicuatoi.jpg" alt="Tình Yêu Bị Bỏ Rơi Của Tôi"></a>
+                        <h3><a href="/path/to/tinh-yeu-bi-bo-roi-cua-toi">Tình Yêu Bị Bỏ Rơi Của Tôi</a></h3>
+                    </div>
+                    <div class="product">
+                        <a href="/path/to/quy-co-bi-an"><img src="image/quycobian.jpg" alt="Quý Cô Bí Ẩn"></a>
+                        <h3><a href="/path/to/quy-co-bi-an">Quý Cô Bí Ẩn</a></h3>
+                    </div>
+                    <div class="product">
+                        <a href="/path/to/ngay-mai-cung-thich-em"><img src="image/ngaymaicungthichem.jpg" alt="Ngày Mai Cũng Thích Em"></a>
+                        <h3><a href="/path/to/ngay-mai-cung-thich-em">Ngày Mai Cũng Thích Em</a></h3>
+                    </div>
+                    <div class="product">
+                        <a href="/path/to/tay-du-ky-ngoai-truyen"><img src="image/taydukyngoaitruyen.jpg" alt="Tây Du Ký Ngoại Truyện"></a>
+                        <h3><a href="/path/to/tay-du-ky-ngoai-truyen">Tây Du Ký Ngoại Truyện</a></h3>
+                    </div>
+                    <div class="product">
+                        <a href="/path/to/huong-ve-anh-duong"><img src="image/huongveanhduong.jpg" alt="Hướng Về Ánh Dương"></a>
+                        <h3><a href="/path/to/huong-ve-anh-duong">Hướng Về Ánh Dương</a></h3>
+                    </div>
+                    <div class="product">
+                        <a href="/path/to/con-gai-duy-nhat"><img src="image/congaiduynhat.jpg" alt="Con Gái Duy Nhất"></a>
+                        <h3><a href="/path/to/con-gai-duy-nhat">Con Gái Duy Nhất</a></h3>
+                    </div>
+                    <div class="product">
+                        <a href="/path/to/thoi-dai-cua-oman"><img src="image/thoidaicuaoman.jpg" alt="Thời Đại Của Oman"></a>
+                        <h3><a href="/path/to/thoi-dai-cua-oman">Thời Đại Của Oman</a></h3>
+                    </div>
+                </div>
+            </div>            
+        </section>
+    </main>
+    <footer>
+        <p>Bản quyền &copy; 2024 The Moon.</p>
+    </footer>
+</body>
+</html>
+

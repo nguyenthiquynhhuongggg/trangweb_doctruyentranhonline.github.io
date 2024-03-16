@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', fantasy;
+    background-image: url(image/background2.jpeg);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container{
+    width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.login-container h2{
+    margin-bottom: 20px;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"],
+.login-container input[type="email"],
+.login-container input[type="submit"]{
+    width: 100%;
+    padding: 10px;
+    font-family: 'Roboto', fantasy;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.login-container input[type="submit"]{
+    font-size: 18px;
+    font-family: 'Roboto', fantasy;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-container input[type="submit"]:hover{
+    background-color: rgb(44, 208, 244);
+    color: #fff;
+}
+
+.login-container p{
+    font-family: 'Roboto', fantasy;
+    margin: 10px 0;
+    text-decoration: none;
+}
+
+.login-container a{
+    font-family: 'Roboto', fantasy;
+    color: rgb(44, 208, 244);
+    transition: 0.3s;
+}
+
+.login-container a:hover{
+    color: darkorange;
+}
