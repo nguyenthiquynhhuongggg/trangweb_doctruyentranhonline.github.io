@@ -23,10 +23,6 @@ Website Đọc Truyện Tranh Online là dự án cá nhân nhằm xây dựng m
 * CSS
 * JavaScript
 
-## Demo
-
-https://nguyenthiquynhhuongggg.github.io/trangweb_doctruyentranhonline.github.io/
-
 ## Tác giả
 
 Nguyễn Thị Quỳnh Hương
